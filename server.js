@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const util = require('util');
-const indexRouter = require('./public/assets/js/index'); //CHECK
 
 const app = express();
 
@@ -27,7 +26,7 @@ app.get('/notes', (req, res) => {
 app.get('/api/notes', (req, res) => {
     readFromFile('./db/db.json')
     .then((data) => {
-        console.log(JSON.parse(data));
+        res.send(JSON.parse(data));
     });
 });
 
