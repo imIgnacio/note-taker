@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const util = require('util');
+const uuid = require('./helpers/uuid');
 
 const app = express();
 
@@ -40,14 +41,15 @@ app.listen(PORT, () =>
 
 // POST
 app.post('/api/notes', (req, res) => {
-    const {title, text} = req.body;
+    const {title, text, id} = req.body;
 
-    if(!title && !text) {
+    if(!title && !text && !id) {
         res.json('Error in posting note');
     }else{
         const newNote = {
             title,
             text,
+            id: uuid(),
         }
 
         readAndAppend(newNote, './db/db.json');
