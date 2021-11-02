@@ -1,43 +1,17 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Note",
-        "text": "test"
-    },
-    {
-        "title": "Note",
-        "text": "test"
-    },
-    {
-        "title": "Note4",
-        "text": "test4"
-    },
-    {
-        "title": "asdfasdffdsa",
-        "text": "fdsafdsaafdsa"
-    },
-    {
-        "title": "call mom",
-        "text": "just need to call mommy"
-    },
-    {
-        "title": "call dad",
-        "text": "i need to call daddy"
-    },
-    {
-        "title": "43143214312",
-        "text": "asdfhfgdhgfd"
-    },
-    {
-        "title": "note 5",
-        "text": "super note 5 jajaja"
-    },
-    {
         "title": "note 12341234",
         "text": "jajajajajjajaj\n",
         "id": "b30f"
+    },
+    {
+        "title": "super note 2",
+        "text": "lololololol",
+        "id": "f038"
+    },
+    {
+        "title": "make sure this work",
+        "text": "indeed, this is working. Awesome!",
+        "id": "1c1c"
     }
 ]
