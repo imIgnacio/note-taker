@@ -6,7 +6,7 @@ const uuid = require('./helpers/uuid');
 
 const app = express();
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 const readFromFile = util.promisify(fs.readFile);
 
 // APP use
